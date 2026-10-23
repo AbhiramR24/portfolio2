@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Abhiram Rajesh | Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300..800&family=Playfair+Display:wght@400..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="script.js" defer></script>
+
+    </head>
+    <body>
+        <div id="loading-screen">
+            <div class="loading-content">
+                <i class="fa-solid fa-laptop-code fa-5x main-icon hidden"></i>
+
+                <h1 id="loading-text" class="hidden">MY PROFILE</h1>
+                <div class="sub-icons">
+                    <i class="fa-brands fa-github fa-2x hidden"></i>
+                    <i class="fa-solid fa-code fa-2x hidden"></i>
+                    <i class="fa-solid fa-user fa-2x hidden"></i>
+                </div>
+                <h2 id="designer-text" class="hidden">Designed by Abhiram </h2>
+            </div>
+        </div>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <div class="logo">
+                AR
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects">
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills">
+                        Skills
+                    </a>
+                </li>
+                <li>
+                    <a href="#training">
+                        Training
+                    </a>
+                </li>
+                <li>
+                    <a href="#education">
+                        Education
+                    </a>
+                </li>
+                <li>
+                    <a href="#contacts">
+                        Contacts
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="home">
+                <div class="container home-inner">
+                    <div class="home-text">
+                        <div class="profile-container">
+                            <img src="assets\abhiram-rajesh.jpg" alt="Abhiram Rajesh" class="profile-image">
+                        </div>
+                        <p class="eyebrow">Software Developer Intern</p>
+                        <h1>Abhiram Rajesh</h1>
+                        <p class="intro">I'm a Software Developer Intern at Konceptslab. I build web applications with HTML, CSS, and JavaScript and work on data analysis projects using Excel and Power BI. Skilled in data preprocessing and predictive modeling.</p>
+                        <div class="contact-strip">
+                            <p class="followw">Follow me:</p>
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    <div class="home-actions">
+                        <a class="btn btn-primary" href="#projects">View Projects</a>
+                        <a class="btn btn-secondary" href="#contact">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>Career Objective</h2>
+                <div class="item">
+                    <p>Data Analyst passionate about turning messy data into clear, actionable insights. Skilled in data preprocessing and predictive modeling, I love taking the guesswork out of strategic decisions. Seeking a collaborative role to help your team drive impactful, data-driven growth.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        
+                        <h3>
+                            <a href="project1.html">Retail Customer Retention Analytics</a>
+                        </h3>
+                        <p class="year">May 2026 - Jun 2026</p>
+                        <div class="skills-list">
+                            <li>Power BI</li>
+                            <li>Data Analytics</li>
+                            <li>DAX</li>
+                            <li>Power Query</li>
+                        </div>
+                        <img src="assets\projects\ikea-dashboard-1.png" alt="Retail Customer Retention Analytics" class="project-card image">
+                        <p>Implemented a Customer Retention Dashboard in Power BI, incorporating various datasets on demographics, transactions, and loyalty programs.</p>
+                        <p>Performed data modeling and transformations using Power Query, and created DAX measures and calculated columns for analysis of churn and customer behavior.</p>
+                        <p>Presented insights that informed tactics to reduce churn, enhance loyalty programs, and improve customer retention strategies.</p>
+                        <div class="project-action-buttons">
+                            <a href="assets\projects\retail-customer-retention-ikea.docx" class="btn btn-primary" download>
+                                Download Report
+                            </a>
+                            <a href="assets\projects\retail-customer-retention-ikea.pbix" class="btn btn-secondary" download>
+                                Download Power BI File
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>
+                            <a href="project2.html">Social Media Analytics for Strategic Branding</a>
+                        </h3>
+                        <p class="year">Feb 2026 - Apr 2026</p>
+                        <div class="skills-list">
+                            <li>Excel</li>
+                            <li>Data Analytics</li>
+                            <li>Data Cleaning</li>
+                            <li>Data Visualization</li>
+                        </div>
+                        <img src="assets\projects\myntra-analytics-preview.svg" alt="Social Media Analytics for Strategic Branding" class="project-card image">
+                        <p>Designed and built a Social Media Intelligence Excel solution for efficient metric extraction, cleaning, and analysis.</p>
+                        <p>Conducted analysis linking ad expenditure to follower growth and campaign success, aiding in strategic brand decision making.</p>
+                        <div class="project-action-buttons">
+                            <a href="assets\projects\myntra-social-media-analytics.xlsx" class="btn btn-primary" download>
+                                Download Excel File
+                            </a>
+                        </div>    
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Study-2-Easy</h3>
+                        <p class="year">Mar 2024 - May 2024</p>
+                        <div class="skills-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </div>
+                        <ul>
+                            <li>It is an application that helps the students to access notes.pdf.</li>
+                            <li>Tools used: HTML, CSS, JavaScript.</li>
+                        </ul>
+                    </article>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills">
+                    <ul class="skills-list">
+                        <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                        <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                        <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                        <li><a href="#"><i class="fa-brands fa-github"></i> GitHub</a></li>
+                        <li><i class="fa-brands fa-python"></i> Python</li>
+                        <li><i class="devicon-jupyter-plain colored"></i> Jupyter Notebook</li>
+                        <li><i class="devicon-googlecolab-plain colored"></i> Google Colab</li>
+                        <li><i class="fa-solid fa-file-excel"></i> MS Excel</li>
+                        <li><i class="fa-solid fa-robot"></i> ChatGPT</li>
+                        <li><i class="fa-solid fa-building"></i> MIS</li>
+                        <li><i class="fa-solid fa-chart-line"></i> Data Analytics & Interpretation</li>
+                        <li><i class="fa-solid fa-magnifying-glass"></i> Research and Analytics</li>
+                        <li><i class="fa-brands fa-microsoft"></i> MS Office</li>
+                        <li><i class="fa-solid fa-chart-pie"></i> Power BI</li>
+                        <li><i class="fa-solid fa-language"></i> English Proficiency (Spoken & Written)</li>
+                        <li><i class="fa-solid fa-robot"></i> Generative AI Tools</li>
+                        <li><i class="fa-solid fa-file-excel"></i> Advanced Excel</li>
+                        <li><i class="devicon-mysql-plain colored"></i> MySQL</li>
+                        <li><i class="fa-brands fa-git-alt"></i> Git</li>
+                        <li><i class="devicon-vscode-plain colored"></i> VS Code</li>
+                    </ul>                      
+                </div>
+            </div>
+        </section>
+
+        <section id="training" class="section">
+            <div class="container">
+                <h2>Trainings / Certifications</h2>
+                <div class="list">
+                    <div class="item">
+                        <h3>Data Science</h3>
+                        <p class="detail">Internshala, Virtual</p>
+                        <p class="year">Nov 2025 - Present</p>
+                        <ul>
+                            <li>Introduction to Data Analytics</li>
+                            <li>Data Management and Analysis with MS Excel</li>
+                            <li>Data Visualization (Power BI)</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h3>Data Analyst In Python, Tableau, SQL & ChatGPT</h3>
+                        <p class="detail">Udemy, Virtual</p>
+                        <p class="year">Jul 2025 - Present</p>
+                    </div>
+                    <div class="item">
+                        <h3>The Complete Python Developer</h3>
+                        <p class="detail">Udemy, Virtual</p>
+                        <p class="year">May 2023 - Jun 2023</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="list">
+                    <div class="item">
+                        <h3>B.Tech, Computer Science & Engineering</h3>
+                        <p class="detail">K.R. Mangalam University</p>
+                        <p>CGPA: 6.23/10</p>
+                        <p class="year">2021 - 2025</p>
+                    </div>
+                    <div class="item">
+                        <h3>Senior Secondary (XII), CBSE</h3>
+                        <p class="detail">Science</p>
+                        <p>Sherwood Convent School, Gurgaon</p>
+                        <p>Percentage: 84.60%</p>
+                        <p class="year">2021</p>
+                    </div>
+                    <div class="item">
+                        <h3>Secondary (X), CBSE</h3>
+                        <p>Mother Teresa Public School, Jalahalli, Bangalore</p>
+                        <p>Percentage: 76.40%</p>
+                        <p class="year">2019</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-card">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out to me for any inquiries, project collaborations, or job opportunities.</p>
+                        <ul class="info-list">
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>abvalath@gmail.com</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-phone"></i>
+                                <span>+91 98765 43210</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Gurgaon, Haryana, India</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        </main>
+    </body>
+</html>
